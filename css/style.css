@@ -1,0 +1,133 @@
+@layer bootstrap , custom ;
+
+
+@layer custom {
+    .layer
+    {
+        height: 100%;
+        width: 100%;
+        z-index: 9 !important;
+        left: 0px;
+        bottom: 0px;
+        top: 0px;
+        right: 0px;
+        position: absolute ;
+        background-color: rgba(214, 46, 51, 0.6);
+    }
+    .main
+    {
+        background-image: url(../img/events-heavenly-header.jpg);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        position: relative;
+        z-index: 2999999 !important;
+        overflow: hidden
+        /* &::before
+        {
+            content: "";
+            background-color: rgba(214, 46, 51, 0.6);
+            opacity: 0,1;
+            height: 100%;
+            width: 100%;
+            position:absolute;
+            z-index:0;
+        } */
+    }
+    .first
+    {
+        overflow: hidden
+    }
+    .test
+    {
+        position: relative;
+        background-color: white
+    }
+    .second 
+    {
+        h2 
+        {
+            cursor: pointer;
+        
+        }   
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        &:hover
+        {
+            color: red;
+        }
+    }
+    .duration > div 
+    {
+        background-color: rgb(255, 192, 192);
+    }
+}
+#contact .stylefont i {
+    color:  rgb(var(--bs-secondary-rgb));
+    &:hover
+    {
+        color: white !important;
+        background-color: red;
+    }
+}
+
+.close
+{
+    color: white;
+    height: fit-content;
+    &:hover
+    {
+        color: red !important;
+    }
+}
+.singerTwo , .singerThree , .singerFour
+{
+    p
+    {display: none;}
+}
+/* .menu
+{
+    z-index: 2;
+    
+} */
+ body,html{
+    padding: 0;
+ }
+.sidebar{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+ul
+{
+    list-style: none;
+    color: white;
+}
+.menubar, li
+{
+cursor: pointer;
+}
+li{
+   top: 100%;
+   text-align: left;
+   padding-block: 10px;
+}
+
+.close
+{
+    cursor: pointer;
+}
+/*  */
+
+
+.time 
+{
+    height: 40vh;
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
